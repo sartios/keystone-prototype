@@ -25,6 +25,8 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'Y',
+
+	'mongo': process.env.MONGO_URI || "mongodb://localhost:27017/sartios-javascript-and-full-stack-articles"
 });
 
 // Load your project's Models
