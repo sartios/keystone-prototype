@@ -1,4 +1,24 @@
 extends ../layouts/default
 
+block intro
+	.container
+		h1 Portfolio
+
 block content
-  h1 Portfolio Page
+	.container
+		.row
+			.col-sm-4.portfolio-item
+				a.portfolio-link(href="https://github.com/sartios/MEAN-Stack", target="_blank")
+					.caption
+						.caption-content: i.fa.fa-search-plus.fa-3x
+					img.img-responsive(src='images/portfolio/mean-stack.png')
+			.col-sm-4.portfolio-item
+				a.portfolio-link(href="https://github.com/sartios/MEAN-Stack", target="_blank")
+					.caption
+						.caption-content: i.fa.fa-search-plus.fa-3x
+					img.img-responsive(src='images/portfolio/socket-io.png')
+			.col-sm-4.portfolio-item
+				a.portfolio-link(href="https://github.com/sartios/MEAN-Stack", target="_blank")
+					.caption
+						.caption-content: i.fa.fa-search-plus.fa-3x
+					img.img-responsive(src='images/portfolio/electron.png')
