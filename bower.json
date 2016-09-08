@@ -1,0 +1,20 @@
+{
+  "name": "sartios-javascript-and-full-stack-articles",
+  "description": "",
+  "main": "",
+  "authors": [
+    "sartios <sartios@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sartios/sartios-blog",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.6.3"
+  }
+}
